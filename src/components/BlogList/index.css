@@ -1,0 +1,17 @@
+/* Write your CSS code here */
+.blog-list {
+  list-style-type: none;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.blog-list-container {
+  width: 90%;
+}
+@media screen and (max-width: 768px) {
+  .blog-list-container {
+    width: 95%;
+    padding-right: 40px;
+  }
+}
